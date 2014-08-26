@@ -8,11 +8,10 @@ Note: JBoss BPM Suite (can be downloaded from https://access.redhat.com/) is alr
 
 Before starting the installation add the loanOfficer role to the user which is used to login in Business Central.
 
-1. Open the Business Central (ex. http://<your_ip>:<port>/business-central)
-2. Login (u:erics / p:bpmsuite)
-3. From the main meniu select `Authoring -> Administration`
-4. From the secondary menu select `Repositories -> Clone repository`
-5. Fill the Clone Repository form:
+1. Login to Business Central (ex. http://localhost:8080/business-central)
+2. From the main meniu select `Authoring -> Administration`
+3. From the secondary menu select `Repositories -> Clone repository`
+4. Fill the Clone Repository form:
   - Repository Name - the name of the repository (created inside JBoss BPM Suite)
   - Organizational Unit - select a value from list
   - Git URL - https://github.com/eschabell/bpmsuite-rewards-repo.git 
